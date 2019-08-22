@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <section class="header">
+        <!-- Header appears here! -->
+    </section>
+
+    <main>
+        <section class="options">
+            <select name="keyword-filter" id="keyword-filter">
+                <option value="" selected>Keyword filter</option>
+                <option value="rhino">Rhino</option>
+                <option value="narwhal">Narwhal</option>
+            </select>
+
+            <select name="sort-options" id="sort-options">
+                <option value="" selected>Sort</option>
+                <option value="title">Title</option>
+                <option value="horns">Horns</option>
+            </select>
+        </section>
+
+        <section class="list-section">
+            <ul class="photo-gallery">
+                <!-- Images appear here! -->
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy Ollie is Awesome LLC 2019</p>
+        </footer>
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+</body>
+</html>

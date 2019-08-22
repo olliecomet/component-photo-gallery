@@ -1,0 +1,97 @@
+/* general styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #839cb4;
+}
+
+/* header styles */
+
+header {
+    background-color: aquamarine;
+    height: 100px;
+    padding: 15px;
+    margin: 10px;
+}
+
+header img {
+    float: left;
+    max-width: 100px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: impact;
+    letter-spacing: 2px;
+}
+
+/* option section styles */
+
+.options {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+}
+
+.options select {
+    height: 25px;
+    align-self: center;
+    margin: 15px;
+    width: 150px;
+}
+
+/* photo list styles */
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    font-family: impact;
+    letter-spacing: 2px;
+}
+
+.photo-gallery li {
+    display: inline-block;
+    list-style: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+    border: 5px solid greenyellow;
+}
+
+.photo-gallery li img {
+    max-height: 300px;
+    border-radius: 5%;
+    border: 5px solid aqua;
+}
+
+.photo-gallery li p {
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.photo-gallery li h3 {
+    font-size: 20px;
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    margin: 15px;
+}
