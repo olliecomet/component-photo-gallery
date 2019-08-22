@@ -6,6 +6,9 @@ class FilterImages extends Component {
 
         select.addEventListener('input', () => {
             onFilter(select.value);
+
+            // callback function prop????
+
         });
     }
 

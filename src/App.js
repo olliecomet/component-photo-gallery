@@ -22,15 +22,15 @@ class App extends Component {
         
         const filterImagesProps = {
             images: images,
-            onFilter: (imageType) => {
+            onFilter: (imageKeyword) => {
                 let filteredImages;
 
-                if(imageType === 'all') {
+                if(imageKeyword === 'all') {
                     filteredImages = images;
                 }
                 else {
                     filteredImages = images.filter(image => {
-                        return image.type === imageType;
+                        return image.keyword === imageKeyword;
                     });
                 }
 
@@ -49,7 +49,7 @@ class App extends Component {
     renderHTML() {
         return /*html*/`
             <div>
-                <!-- Header appears here! -->
+                <!-- Header appears above! -->
   
                 <main> 
                     <section class="options-section"> 
