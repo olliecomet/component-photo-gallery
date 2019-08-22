@@ -16,10 +16,10 @@ class App extends Component {
 
         const imageList = new ImageList(props);
         const imageListDOM = imageList.renderDOM();
-
+        
         const listSection = dom.querySelector('.list-section');
         listSection.appendChild(imageListDOM);
-
+        
         const filterImagesProps = {
             images: images,
             onFilter: (imageType) => {
@@ -40,10 +40,10 @@ class App extends Component {
         };
 
         const filterImages = new FilterImages(filterImagesProps);
-        const filterImagesDOM = filterImages.renderDOM();
+        const filteredImagesDOM = filterImages.renderDOM();
 
-        const optionsSection = document.querySelector('.options-section');
-        optionsSection.appendChild(filterImagesDOM);
+        const optionsSection = dom.querySelector('.options-section');
+        optionsSection.appendChild(filteredImagesDOM);
     }
 
     renderHTML() {
