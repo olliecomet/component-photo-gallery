@@ -1,0 +1,27 @@
+.photo-gallery li {
+    display: inline-block;
+    list-style: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+    border: 5px solid greenyellow;
+}
+
+.photo-gallery li img {
+    max-height: 300px;
+    border-radius: 5%;
+    border: 5px solid aqua;
+}
+
+.photo-gallery li p {
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.photo-gallery li h3 {
+    font-size: 20px;
+}

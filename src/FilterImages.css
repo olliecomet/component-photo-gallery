@@ -1,0 +1,14 @@
+.options-section {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 100px;
+    margin: 10px;
+}
+
+.options-section select {
+    height: 25px;
+    align-self: center;
+    margin: 15px;
+    width: 150px;
+}

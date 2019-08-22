@@ -1,0 +1,9 @@
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    font-family: impact;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,6 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    margin: 15px;
+}
